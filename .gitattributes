@@ -1,0 +1,11 @@
+# Mark platform-specific folders as vendored so they don't count towards language statistics
+android/* linguist-vendored
+ios/* linguist-vendored
+linux/* linguist-vendored
+macos/* linguist-vendored
+windows/* linguist-vendored
+
+# Also ignore generated files
+pubspec.lock linguist-generated
+.metadata linguist-generated
+*.iml linguist-generated
